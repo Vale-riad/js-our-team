@@ -41,7 +41,7 @@ const profile = [
 //MILESTONE 1:
 //Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 for(let key in profile) {
-        console.log(key, profile[key]);
-    }
+    console.log(key, profile[key]);
+}
 //MILESTONE 2:
 //Stampare le stesse informazioni su DOM sottoforma di stringhe

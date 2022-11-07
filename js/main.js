@@ -44,6 +44,7 @@ for (let i = 0; i < profile.length; i++) {
     console.log(profile[i].name, profile[i].role, profile[i].img);
     const listProfiles = `<li>
     <h4>${profile[i].name}, ${profile[i].role}, ${profile[i].img}</h4>
+    <img src="${profile.img}" alt="">
     </li>
     `;
     document.getElementById('list-profils').innerHTML += listProfiles;

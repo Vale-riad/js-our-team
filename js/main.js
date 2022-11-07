@@ -44,10 +44,10 @@ for (let i = 0; i < profile.length; i++) {
     console.log(profile[i].name, profile[i].role, profile[i].img);
     const listProfiles = `<li>
     <h4>${profile[i].name}, ${profile[i].role}, ${profile[i].img}</h4>
-    <img src="${profile.img}" alt="">
+    <img src="immagini/${profile[i].img}">
     </li>
     `;
-    document.getElementById('list-profils').innerHTML += listProfiles;
+    document.getElementById('list-profiles').innerHTML += listProfiles;
 }   
 //MILESTONE 2:
 //Stampare le stesse informazioni su DOM sottoforma di stringhe

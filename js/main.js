@@ -43,7 +43,7 @@ const profile = [
 for (let i = 0; i < profile.length; i++) {
     console.log(profile[i].name, profile[i].role, profile[i].img);
     const listProfiles = `<li>
-    <h4>${profile[i].name, profile[i].role, profile[i].img}</h4>
+    <h4>${profile[i].name}, ${profile[i].role}, ${profile[i].img}</h4>
     </li>
     `;
     document.getElementById('list-profils').innerHTML += listProfiles;
